@@ -16,7 +16,7 @@ h1, h2 {
   width: 100%;
   background-color: gray;
   padding-top: 3em;
-  padding-bottom: 3em;;
+  padding-bottom: 3em;
   display: flex;
   justify-content: center;
   color: white;
@@ -26,7 +26,13 @@ h1, h2 {
 h2 {
   padding-top: 1em;;
   padding-bottom: 1em;;
-  padding-left: 10px;
+}
+
+h3 {
+  background-color: gray;
+  color: white;
+  height: 10%;
+  padding:2em;
 }
 
 /* Text styling for the lyrics of the songs */
@@ -134,7 +140,7 @@ a.active {
   transition: transform .2s;
 }
 
-.infobox:hover {
+.infobox a:hover {
   transform: scale(1.055);
 }
 
