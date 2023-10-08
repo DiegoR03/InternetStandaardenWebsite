@@ -33,10 +33,11 @@ h2 {
 pre {
   white-space:pre-line;
   font-size: 0.8em;
-  text-align: left;
   background-color: rgb(41, 41, 41);
   color:white;
   padding: 2em;
+  overflow-y: scroll;
+  height: 40em;
 }
 
 /* Body stying */
@@ -54,8 +55,9 @@ footer {
 
 /* Video styling and positioning */
 video {
-  position: inherit;
-  width:50%;
+  position:static;
+  padding-bottom: 5em;
+  width:60%;
 }
 
 /* List box */
@@ -142,15 +144,12 @@ a.active {
   margin: 0;
   display: flex;
   justify-content: center;
-  list-style: none;
-  flex-direction:inherit;
   flex-wrap: wrap;
 }
 
 /* Lyrics Page make up */
 .lyrics-container {
   display: flex;
-  align-items: center;
   column-gap: 1em;
   justify-content: center;
   padding: 2em
